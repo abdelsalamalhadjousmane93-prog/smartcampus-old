@@ -1,0 +1,10 @@
+.git
+.gitignore
+.env
+src
+Jenkinsfile
+README.md
+Dockerfile*
+compose.yaml
+target/*
+!target/smartcampus-1.0.0.jar
