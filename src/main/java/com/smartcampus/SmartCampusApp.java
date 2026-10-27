@@ -15,7 +15,7 @@ public class SmartCampusApp {
     private static final AuthService AUTH = new AuthService();
 
     public static void main(String[] args) throws IOException {
-        int port = Integer.parseInt(Config.get("PORT", "8080"));
+        int port = Integer.parseInt(Config.get("PORT", "8082"));
         Database.init();
 
         HttpServer server = HttpServer.create(new InetSocketAddress(port), 0);
